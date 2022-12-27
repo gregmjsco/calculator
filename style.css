@@ -1,22 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+
 .container {
-    width: 800px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .row {
     display: flex;
-    flex: auto;
+    flex: 1 1 auto;
+    justify-content: center;
+    
+    
 }
 
 .calc-input {
     flex: 1;
     background: lightcyan;
-    height: 50px;
-    width: 50px;
 }
 
 .button {
-    display: flex;
-    flex: auto;
+    flex: 1 1 auto;
     justify-content: center;
     align-items: center;    
     width: 50px;
