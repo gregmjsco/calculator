@@ -22,7 +22,7 @@ body {
 
 .calc-input {
     flex: 1;
-    background: lightcyan;
+    background-color: lightcyan;
 }
 
 .button {
