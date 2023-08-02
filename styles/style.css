@@ -23,21 +23,19 @@ body {
     width: 500px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     
 }
 
 .row {
     display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
 }
 
 .calc-input {
-    flex: 1;
-    background-color: lightcyan;
+
 }
 
 .button {
