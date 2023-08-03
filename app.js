@@ -1,5 +1,9 @@
+
+
 const calcInput = document.querySelector(".calc-input")
 const allButtons = document.querySelectorAll(".button")
+
+console.log({allButtons})
 
 allButtons.forEach(button => {
     button.addEventListener('click', (e) => {
